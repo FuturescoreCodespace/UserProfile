@@ -1,0 +1,160 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-picture {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+
+.share-button, .message-button, .notification-button {
+    white-space: nowrap;
+    padding: 10px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.share-button, .message-button, .notification-button {
+    margin: 0 5px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .profile-buttons {
+        display: flex;
+    }
+    .share-button, .message-button, .notification-button {
+        margin-top: 4%;
+        max-width: fit-content;
+        margin-right: 10px;
+        display: flex;
+    }
+}
+
+
+.profile-about-user {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-about-user p {
+    margin-bottom: 10px;
+}
+
+
+.profile-about-me {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-about-me h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.profile-about-me p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+.profile-school {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-school h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.profile-school-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.profile-interests {
+    margin-top: 20px;
+}
+
+.profile-interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-interests li {
+    margin-bottom: 5px;
+}
+
+
+.profile-career-goals {
+    margin-top: 20px;
+}
+
+.profile-career-goals ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-career-goals li {
+    margin-bottom: 5px;
+}
+li {
+    flex: 1 0 calc(25% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 20px;
+    color: #000;
+    max-width: fit-content;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="settings-container">
+    <div class="company-logo">
+      <img src="company-logo.png" alt="Company Logo">
+    </div>
+
+    <div class="back-arrow-settings-title">
+      <button class="back-arrow"><i class="fas fa-chevron-left"></i></button>
+      <h2>Settings</h2>
+    </div>
+
+    <div class="profile-visibility-section">
+      <h3>Profile visibility</h3>
+      <p>Your profile can be set to public or connections only.</p>
+      <div class="profile-visibility-options">
+        <label for="public-visibility">Public</label>
+        <input type="radio" id="public-visibility" name="profile-visibility" value="public">
+        <label for="connections-visibility">Connections Only</label>
+        <input type="radio" id="connections-visibility" name="profile-visibility" value="connections-only">
+      </div>
+    </div>
+
+    <div class="active-status-section">
+      <h3>Active status</h3>
+      <p>Control whether your active status is visible to others.</p>
+      <label for="active-status-toggle">Show active status</label>
+      <input type="checkbox" id="active-status-toggle" name="active-status">
+    </div>
+
+    <div class="notifications-preferences-section">
+      <h3>Notifications preferences</h3>
+      <p>Choose which notifications you want to receive.</p>
+      <div class="notifications-options">
+        <label for="connections-posts-toggle">Connections posts</label>
+        <input type="checkbox" id="connections-posts-toggle" name="notifications-preferences">
+        <label for="futurescore-direct-toggle">Futurescore Direct</label>
+        <input type="checkbox" id="futurescore-direct-toggle" name="notifications-preferences">
+      </div>
+    </div>
+
+    <div class="data-usage-section">
+      <h3>Data usage</h3>
+      <p>Manage how your data is used.</p>
+      <div class="data-usage-options">
+        <label for="autoplay-videos-toggle">Autoplay videos</label>
+        <select id="autoplay-videos-toggle" name="data-usage">
+          <option value="on-mobile">On mobile data</option>
+          <option value="on-wifi">On Wi-Fi</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="support-and-community-links">
+      <h3>Contact us</h3>
+      <a href="#">Help and support</a>
+
+      <h3>Community</h3>
+      <p><a href="#">Community guidelines</a></p>
+      <p><a href="#">Communication guidelines</a></p>
+      <p><a href="#">Privacy preferences</a></p>
+    </div>
+
+    <div class="privacy-and-legal-links">
+      <h3>Privacy</h3>
+      <a href="#">Privacy policy</a>
+
+      <h3>Legal</h3>
+      <p><a href="#">Licences</a></p>
+      <p><a href="#">Terms of Service</a></p>
+    </div>
+
+    <button class="sign-out-button">
+      <i class="fas fa-sign-out-alt"></i> Sign out
+    </button>
+  </div>
+</body>
+</html>

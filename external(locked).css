@@ -1,0 +1,51 @@
+.locked-profile-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-picture {
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-name {
+    padding-left: 4%;
+    font-size: 2em;
+    position: relative;
+}
+
+.profile-name i {
+    margin-left: 10px;
+    color: #ff3366;
+}
+
+.locked-profile-message {
+    padding-left: 4%;
+    font-size: 1.5em;
+}
+
+.add-connection-button {
+    margin-left: 4%;
+    padding: 12px 20px;
+    background-image: url('./diagram-export-11-24-2023-12_28_37-PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #c6e1ff;
+    border: 2px solid #c6e1ff;
+    color: #000000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.2em;
+}
+
+.add-connection-button:hover {
+    background-color: #b3d9ff;
+    box-shadow: 0 0 10px 3px #66AFE9;
+}
